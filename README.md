@@ -1,5 +1,4 @@
 # Natural-Language-Processing 
-This 
 
 ## Tokenizing:
 Tokenizing can be considered as a form of grouping a charecter sequence. The groups are called *tokens*. They are of 2 types - 
@@ -7,5 +6,5 @@ Tokenizing can be considered as a form of grouping a charecter sequence. The gro
 2. Word Tokenizer (word_tokenize)
 
 ## Corpora and Lexicon
-*Corpora* refers to large collection of texts. E.g- medical journals, presidential speech, any English language. 
+*Corpora* refers to large collection of texts. E.g- medical journals, presidential speech, any English language.  
 *Lexicon* refers to dictionary of words and their meanings.
