@@ -4,3 +4,7 @@
 Tokenizing can be considered as a form of grouping a charecter sequence. The groups are called *tokens*. They are of 2 types - 
 1. Sentence Tokenizer 
 2. Word Tokenizer
+
+## Corpora and Lexicon
+*Corpora* refers to large collection of texts. E.g- medical journals, presidential speech, any English language.
+*Lexicon* refers to dictionary of words and their meanings.
