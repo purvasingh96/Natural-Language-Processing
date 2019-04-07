@@ -13,7 +13,7 @@ pip install nltk
 
 # Terminologies related to NLP
 
-*let example = "Hello Miss. Purva Singh! How are you? We are very excited to meet you !!!!"*
+*let example = "Hello Miss. Purva Singh! How are you? We are very excited to meet you !!!!"*<br/>
 *let example_words = ("draw", "drawing", "drew", "draws") <br/>*
 
 | S.No. | Terminology | Description                                                                                                                                          | Python Library                                                                    | Examples                                                                                                                                                                                                      |
