@@ -10,7 +10,6 @@ pip install nltk
 >>import nltk
 >>nltk.download('all')
 ```
----
 
 # Terminologies related to NLP
 ## 1. Tokenizing
