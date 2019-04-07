@@ -12,16 +12,12 @@ pip install nltk
 ```
 
 # Terminologies related to NLP
-## 1. Tokenizing
-Tokenizing can be considered as a form of grouping a charecter sequence. The groups are called *tokens*. They are of 2 types - 
-1. Sentence Tokenizer (sent_tokenize) 
-    * Recognizes every punctuation as separate word.
-2. Word Tokenizer (word_tokenize) 
-  a. Recognizes every punctuation as a separate word.
 
-## 2. Corpora, Lexicon and Stop Words
-* *Corpora* refers to large collection of texts. E.g- medical journals, presidential speech, any English language.  
-* *Lexicon* refers to dictionary of words and their meanings.  
-* *Stop words* refers to those set of extra words in the sentence that we donot need. They are filler words anfd w.r.t data analysis, the are useless. e.g. a, an, the, of
+| S.No. | Terminology | Description                                                                                                                                          | Python Library                                                                    | Examples                                                                                                                                                                                                      |
+|-------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.    | Tokenizing  | Tokenizing can be considered as a form of grouping a charecter sequence. They are of 2 types -  1. Sentence Tokenizer  2. Word Tokenizer             | ```sent_tokenize(example) word_tokenize(example) ```                   | **SENTENCE TOKENIZER -** Hello Miss.  Purva Singh!  How are you?  We are very excited to meet you !!!!  **WORD TOKENIZER -** Hello,Miss,.,Purva,Singh,!,How,are,you,?,We,are, very,excited,to,meet,you,!,!,!,!  |
+| 2.    | Corpora     | Corpora refers to large collection of texts                                                                                                          | ```import nltk.corpus ```                                                  | medical journals, presidential speech, any English language                                                                                                                                                 |
+| 3.    | Lexicon     | Lexicon refers to dictionary of  words and their meanings                                                                                            |                                                                                   | bull - To a financial investor,  the first meaning for the word "Bull"  is someone who is confident about the market bull - an animal                                                                       |
+| 4     | Stop Words  | Stop words refers to those set of extra words in  the sentence that we donot need.  They are filler words and w.r.t data analysis,  they are useless | ```from nltk.corpus  import stopwords  set(stopwords.stop("english"))  ``` | a, an, the, of                                                                                                                                                                                              |
 
 
