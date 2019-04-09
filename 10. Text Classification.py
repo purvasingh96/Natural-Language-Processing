@@ -1,6 +1,7 @@
 import nltk
 import random
 from nltk.corpus import movie_reviews
+import pickle
 
 documents = [(list(movie_reviews.words(file_id)), category)
              for category in movie_reviews.categories()
@@ -45,4 +46,15 @@ testing_set = featuresets[1900:]
 
 classifier = nltk.NaiveBayesClassifier.train(training_set)
 
-print("NBC accuracy :: ", nltk.classify.accuracy(classifier, testing_set)*100)
+# print("NBC accuracy :: ", nltk.classify.accuracy(classifier, testing_set)*100)
+
+classifier_f = open("naivebayes.pickle", "rb")
+classifier = pickle.load(classifier_f)
+classifier_f.close()
+
+save_classifier = open("naivebayes.pickle", "wb")
+# what do we want to dump, where do we want to dump
+pickle.dump(classifier, save_classifier)
+save_classifier.close()
+
+#pickle is a way using which we can save python objects
