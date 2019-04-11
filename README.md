@@ -30,7 +30,7 @@ pip install nltk
 | 10    | Lemmatizing               | Lemmatizing is similar to stemming, but in former, every word  generated is an actual word unlike  stemming. Lemmatizer function takes  an optional parameter **"pos"(part of speech)** which by default is **noun**. | ```from nltk.stem import  WordNetLemmatizer```<br/>```  lemmatizer = WordNetLemmatizer()```<br/>  ```lemmatizer.lemmatize("pretty")```                           | # pretty<br/> print(lemmatizer.lemmatize("pretty"))<br/><br/>  # drawing <br/>print(lemmatizer.lemmatize("drawing", pos='a')) <br/><br/> # good<br/> print(lemmatizer.lemmatize("better", pos='a'))<br/><br/>  # better<br/> print(lemmatizer.lemmatize("better")) |
 
 ## Sentiment Analysis
-### Steps to perform sentiment analysis using Twitter API :
+### Pre-requisites for performing sentiment analysis using Twitter API :
 >1. Create a [twitter developer account](http://dev.twitter.com).
 >2. Create an app by filling all the required details.
 >3. Sometimes email confirmation mail can come in your *spam folder*.
