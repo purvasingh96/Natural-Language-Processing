@@ -29,6 +29,15 @@ pip install nltk
 | 9.    | Named entity  recognition | Main idea behind  Named entity recognition is to chunk "**entities**" such as people, places, things, locations,  monetary figures, and more                                                                      | ```named_entity = nltk.ne_chunk(tagged)```                                                                                                  | ORGANIZATION - Caplan and Gold, <br/>WHO PERSON - Purva Singh <br/> LOCATION - Bhilai, Bangalore <br/>DATE - June, 2019-06-29 <br/>TIME - two fifty a m, 1:30 p.m.                                                                   |
 | 10    | Lemmatizing               | Lemmatizing is similar to stemming, but in former, every word  generated is an actual word unlike  stemming. Lemmatizer function takes  an optional parameter **"pos"(part of speech)** which by default is **noun**. | ```from nltk.stem import  WordNetLemmatizer```<br/>```  lemmatizer = WordNetLemmatizer()```<br/>  ```lemmatizer.lemmatize("pretty")```                           | # pretty<br/> print(lemmatizer.lemmatize("pretty"))<br/><br/>  # drawing <br/>print(lemmatizer.lemmatize("drawing", pos='a')) <br/><br/> # good<br/> print(lemmatizer.lemmatize("better", pos='a'))<br/><br/>  # better<br/> print(lemmatizer.lemmatize("better")) |
 
+## Sentiment Analysis
+### Steps to perform sentiment analysis using Twitter API :
+>1. Create a [twitter developer account](http://dev.twitter.com).
+>2. Create an app by filling all the required details.
+>3. Sometimes email confirmation mail can come in your *spam folder*.
+>4. After creating app, under **keys and tokens** section, you can find your respective -- *consumer key, consumer secret key, token key and token secret key*
+
+
+
 
 
 
