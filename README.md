@@ -35,6 +35,18 @@ pip install nltk
 >2. Create an app by filling all the required details.
 >3. Sometimes email confirmation mail can come in your *spam folder*.
 >4. After creating app, under **keys and tokens** section, you can find your respective -- *consumer key, consumer secret key, token key and token secret key*
+><img src="images/Selection_003.png" width="600" >
+
+### Twitter's Stream API giving 401 
+>1. One of the reasons for *Stream API* giving 401 is :: **Twitter account's time zone and ubuntu machine's timezone are not in SYNC**
+>2. To check current time zone in *ubuntu*, type ```date``` command :
+><img src="images/date_command.png" width="600" >
+>3. To check time zone of your *twitter account*, follow the following steps - 
+>* Goto [twitter](https://twitter.com/)
+>* Click on your profile -> settings and privacy -> Timezone 
+>* Set timezone in sync with your ubuntu machine's timezone.
+><img src="images/sync_twitter_tz.png" width="600" >
+
 
 
 
