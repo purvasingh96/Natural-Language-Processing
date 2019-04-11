@@ -41,6 +41,9 @@ pip install nltk
 >1. One of the reasons for *Stream API* giving 401 is :: **Twitter account's time zone and ubuntu machine's timezone are not in SYNC**
 >2. To check current time zone in *ubuntu*, type ```date``` command :
 ><img src="images/date_command.png" width="600" >
+
+
+
 >3. To check time zone of your *twitter account*, follow the following steps - 
 >* Goto [twitter](https://twitter.com/)
 >* Click on your profile -> settings and privacy -> Timezone 
