@@ -10,7 +10,9 @@ asecret = '****'
 class listener(StreamListener):
 
     def on_data(self, data):
-        print(data)
+        all_data = json.loads(data)
+        tweet = all_data["text"]
+        print(tweet)
         return True
 
 
